@@ -1,0 +1,25 @@
+{
+  "name": "stencil-monorepo",
+  "version": "0.0.0",
+  "description": "Demo of 2 Stencil Component projects managed by Lerna",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/stencil-monorepo.git"
+  },
+  "author": "Peter Mikitsh <peter.mikitsh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/stencil-monorepo/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/stencil-monorepo#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
