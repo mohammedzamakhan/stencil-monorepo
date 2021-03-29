@@ -1,5 +1,5 @@
 {
-  "name": "project-b-mar-23",
+  "name": "project-a-mar-29",
   "version": "1.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/project-b-mar-23/project-b-mar-23.js",
+  "unpkg": "dist/project-a-mar-29/project-a-mar-29.js",
   "files": [
     "dist/",
     "loader/"
@@ -22,11 +22,8 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "^1.3.3",
-    "project-a-mar-23": "^1.0.1",
-    "rollup-plugin-alias": "^2.0.0",
-    "rollup-watch": "^4.3.1"
+    "@stencil/core": "^1.3.3"
   },
   "license": "MIT",
-  "gitHead": "359dc577feeabce63dfeed6fd257578cde6a2048"
+  "gitHead": "7081166586f5c5a41b4a65f106a959ddd0914228"
 }
