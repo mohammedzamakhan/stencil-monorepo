@@ -1,9 +1,9 @@
-import { Component, Prop, h } from '@stencil/core';
+import { Component, h, Prop } from "@stencil/core";
 
 @Component({
-  tag: 'a-button',
-  styleUrl: 'a-button.css',
-  shadow: false
+  tag: "a-button",
+  styleUrl: "a-button.css",
+  shadow: false,
 })
 export class AButton {
   /**
@@ -15,7 +15,6 @@ export class AButton {
     return (
       <button>
         {this.myBtnLabel}
-        {"eee"}
         <slot />
       </button>
     );
